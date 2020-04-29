@@ -1,0 +1,172 @@
+html, body{
+  height: 100%;
+  background-color: #1bb38d;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 150%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+.container {
+  margin:auto;
+  position: relative;
+  top: 10%;
+  display: flex;
+  width: 70%;
+}
+
+.dane-osobowe{
+  font-size: 1.2rem;
+}
+
+.licznik-znakow{
+  font-size: 0.7em;
+  float: right;
+}
+
+.callout {
+  font-weight: bold;
+}
+
+.callout-f_imie{
+  top:3.5em;
+  left: 22em;
+  background-color: #e87109;
+  position: absolute;
+  z-index: 1000;
+  width: 150px;
+  padding-left: 10px;
+  border-radius: 15px 15px 15px 0px;
+}
+
+.callout-f_nazwisko{
+  top:5.5em;
+  left: 22em;
+  background-color: #e87109;
+  position: absolute;
+  z-index: 1000;
+  width: 150px;
+  padding-left: 10px;
+  border-radius: 15px 15px 15px 0px;
+}
+
+.callout-f_email{
+  top:12em;
+  left: 22em;
+  background-color: #e87109;
+  position: absolute;
+  z-index: 1000;
+  width: 150px;
+  padding-left: 10px;
+  border-radius: 15px 15px 15px 0px;
+  margin-right: 4em;
+}
+
+.callout-f_ulica{
+  top:14em;
+  left: 22em;
+  background-color: #e87109;
+  position: absolute;
+  z-index: 1000;
+  width: 150px;
+  padding-left: 10px;
+  border-radius: 15px 15px 15px 0px;
+  margin-right: 4em;
+}
+
+.callout-f_miasto{
+  top: 16em;
+  left: 22em;
+  background-color: #e87109;
+  position: absolute;
+  z-index: 1000;
+  width: 150px;
+  padding-left: 10px;
+  border-radius: 15px 15px 15px 0px;
+  margin-right: 4em;
+}
+
+.callout-f_kod{
+  top: 18.5em;
+  left: 22em;
+  background-color: #e87109;
+  position: absolute;
+  z-index: 1000;
+  width: 150px;
+  padding-left: 10px;
+  border-radius: 15px 15px 15px 0px;
+  margin-right: 4em;
+}
+
+.dane-osobowe input[type=text], textarea{
+  width: 150%;
+  padding: 5px 5px;
+  margin: 5px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.dane-osobowe input[type=submit] {
+  width: 150%;
+  color: #fff;
+  background-color: #4CAF50;
+  padding: 14px 20px;
+  margin: 5px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.dane-osobowe input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.dual-box{
+  display: flex;
+  flex-direction: row;
+}
+
+.dual-elem{
+ margin-left: 50%;
+}
+
+.left-half {
+  background-color: #021d3a;
+  color: #fff;
+  border-radius: 25px 0px 0px 25px;
+  flex: 0 0 40%;
+  padding: 2rem;
+}
+
+.right-half {
+  background-color: #b6701e;
+  border-radius: 0px 25px 25px 0px;
+  flex: 1;
+}
+
+.bg {
+  background-image: url("bck.jpg");
+  height: 100%; 
+  background-position: left;
+  border-radius: 0px 25px 25px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

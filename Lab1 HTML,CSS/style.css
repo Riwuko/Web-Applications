@@ -1,0 +1,56 @@
+li {
+  list-style-type: square;
+}
+
+#cena {
+  color: blue;
+  font-weight: bold;
+}
+
+.wstep {
+  font-style: italic;
+}
+
+td > img:hover {
+  border-style: solid;
+  border-color: white;
+}
+
+td > img {
+  border-style: solid;
+  border-color: blue;
+}
+
+h1 + h2 {
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+td[colspan=2] > p {
+  font-size: small;
+}
+
+p + p {
+  color: white;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/f2/c9/8e/f2c98e653eb9264bcbd83167f0be9c05.jpg);
+  background-repeat: repeat-y;
+}
+
+h1 {
+  color: green;
+}
+
+h1 {
+  color: blue;
+}
+
+body
+{
+    margin: 5%;
+	font-family: Arial;
+}
+
+

@@ -2,130 +2,130 @@
 <html>
 
 <head>
-    <metacharset='utf-8" />
+    <metacharset="utf-8" />
     <link rel="stylesheet" href="style.css">
-     <script type="text/javascript" src="form-check.js"></script>
+    <script type="text/javascript" src="form-check.js"></script>
     <title>JavaScript</title>
 </head>
 
 <body>
 
-<section class="container">
-<div class="left-half">
-                <form id='dane-osobowe' class="dane-osobowe">
-                        <h1>Wypełnij formularz:</h1>
-                    <table>
-                        <div class="callout">
+    <section class="container">
+        <div class="left-half">
+            <form id=' dane-osobowe ' class="dane-osobowe">
+                <h1>Wypełnij formularz:</h1>
+                <table>
+                    <div class="callout">
                         <div class="callout-f_imie">
                         </div>
                     </div>
-                        <tr>
-                            <td>Imię*</td>
-                            <td>
-                                <input type="text" name="f_imie">
-                            </td>
-                        </tr>
-                        <tr>
-                            <div class="callout">
-                        <div class="callout-f_nazwisko">
+                    <tr>
+                        <td>Imię*</td>
+                        <td>
+                            <input type="text" name="f_imie">
+                        </td>
+                    </tr>
+                    <tr>
+                        <div class="callout">
+                            <div class="callout-f_nazwisko">
+                            </div>
                         </div>
-                    </div>
-                            <td>Nazwisko*</td>
-                            <td>
-                                <input type="text" name="f_nazwisko">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Płeć</td>
-                            <td>
-                                <div class='dual-box'>
-                                    <div class='dual-elem'>
-                                        <input onClick="changeVisibility('nazwisko-panienskie')" name="f_plec" value="f_k" checked type="radio" />kobieta</div>
-                                    <br/>
-                                    <div class='dual-elem'>
-                                        <input onClick="changeVisibility('nazwisko-panienskie')" name="f_plec" value="f_m" type="radio" />mężczyzna </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <div class="callout">
-                        <div class="callout-f_nazwisko_p">
+                        <td>Nazwisko*</td>
+                        <td>
+                            <input type="text" name="f_nazwisko">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Płeć</td>
+                        <td>
+                            <div class='dual-box '>
+                                <div class='dual-elem '>
+                                    <input onClick="changeVisibility('nazwisko-panienskie ')" name="f_plec" value="f_k" checked type="radio" />kobieta</div>
+                                <br/>
+                                <div class='dual-elem '>
+                                    <input onClick="changeVisibility('nazwisko-panienskie ')" name="f_plec" value="f_m" type="radio" />mężczyzna </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <div class="callout">
+                            <div class="callout-f_nazwisko_p">
+                            </div>
                         </div>
-                    </div>
-                            <td>N. panieńskie</td>
-                            <td>
-                                <span class='nazwisko-panienskie'>
+                        <td>N. panieńskie</td>
+                        <td>
+                            <span class='nazwisko-panienskie '>
                                 <input type="text" name="f_nazwisko_p">
                             </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <div class="callout">
-                        <div class="callout-f_email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <div class="callout">
+                            <div class="callout-f_email">
+                            </div>
                         </div>
-                    </div>
-                            <td>E-mail*</td>
-                            <td>
-                                <input type="text" name="f_email">
-                            </td>
-                        </tr>
-                        <tr>
-                            <div class="callout">
-                        <div class="callout-f_ulica">
+                        <td>E-mail*</td>
+                        <td>
+                            <input type="text" name="f_email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <div class="callout">
+                            <div class="callout-f_ulica">
+                            </div>
                         </div>
-                    </div>
-                            <td>Ulica/Osiedle*</td>
-                            <td>
-                                <input type="text" name="f_ulica">
-                            </td>
-                        </tr>
-                        <tr>
-                            <div class="callout">
-                        <div class="callout-f_miasto">
+                        <td>Ulica/Osiedle*</td>
+                        <td>
+                            <input type="text" name="f_ulica">
+                        </td>
+                    </tr>
+                    <tr>
+                        <div class="callout">
+                            <div class="callout-f_miasto">
+                            </div>
                         </div>
-                    </div>
-                            <td>Miasto*</td>
-                            <td>
-                                <input type="text" name="f_miasto">
-                            </td>
-                        </tr>
-                        <tr>
-                            <div class="callout">
-                        <div class="callout-f_kod">
+                        <td>Miasto*</td>
+                        <td>
+                            <input type="text" name="f_miasto">
+                        </td>
+                    </tr>
+                    <tr>
+                        <div class="callout">
+                            <div class="callout-f_kod">
+                            </div>
                         </div>
-                    </div>
-                            <td>Kod pocztowy*</td>
-                            <td>
-                                <input type="text" name="f_kod">
-                            </td>
-                        </tr>
-                         <tr>
-                    <td>Uwagi</td>
-                    <td>
-                        <textarea rows="5" cols="16" name="uwagi" onkeydown="cnt(this.form.uwagi, document.getElementById('zostalo'), 150)"></textarea>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    </td>
-                    <td>
-                        <span class="licznik-znakow">Pozostało <span id="zostalo">150</span> znaków</span></td>
-                </tr>
-                        <tr>
-                            <td>
-                            </td>
-                            <td>
-                                <input type="submit" value="Prześlij" onclick='return buttonClick(this.form)'>
-                            </td>
-                        </tr>
-                    </table>
-                </form>
-            </div>
-            <div class="right-half">
-                <div class="bg"></div>
-            </div>
-</section>
-
+                        <td>Kod pocztowy*</td>
+                        <td>
+                            <input type="text" name="f_kod">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Uwagi</td>
+                        <td>
+                            <textarea rows="5" cols="16" name="uwagi" onkeydown="cnt(this.form.uwagi, document.getElementById('zostalo '), 150)"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                            <span class="licznik-znakow">Pozostało <span id="zostalo">150</span> znaków</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                            <input type="submit" value="Prześlij" onclick='return buttonClick(this.form) '>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="right-half">
+            <div class="bg"></div>
+        </div>
+    </section>
 
 </body>
 

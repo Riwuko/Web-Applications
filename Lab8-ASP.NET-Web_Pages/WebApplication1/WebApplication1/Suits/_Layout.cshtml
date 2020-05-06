@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@Page.Title</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/Style.css">
+</head>
+<body>
+    <div class="bimg">
+    <div class="content-container">
+        <div class="triangle-container">
+            <h1> Mark VI </h1>
+            <div class="plate">@RenderBody()</div>
+            <div class="info">@RenderSection("Info")</div>
+            <div class="links">@RenderSection("Link")</div>
+        </div>
+    </div>
+       </div>
+</body>
+</html>
